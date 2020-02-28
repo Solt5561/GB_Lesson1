@@ -7,7 +7,7 @@ public class Start {
         Random random = new Random();
         Competitor[] competitors = {
                 new Human("Bob", random.nextInt(10),random.nextInt(10)),
-                new Robot("01010101",random.nextInt(10),random.nextInt(10)),
+                new Robot("01010101010101",random.nextInt(10),random.nextInt(10)),
                 new Cat("Barsik", random.nextInt(10), random.nextInt(10))
         };
 
@@ -41,4 +41,5 @@ public class Start {
             }
         }
     }
+    //ntcn
 }
